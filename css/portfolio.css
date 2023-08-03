@@ -1,0 +1,115 @@
+
+
+#inicio {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    height: 311%;
+    width: 100%;
+    background-image: url(/Practica-Portfolio/img/portfbackground.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+
+.barra-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    background-color: rgba(14, 16, 27, 0.7);
+    padding: 1rem;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 0 0 -1rem;
+} 
+
+.barra-nav a {
+    
+    text-align: center;
+    padding: 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 2rem 0 0;  
+}
+
+.barra-nav a:hover {
+    background-color: transparent;
+    font-size: large;
+    color: blueviolet;
+}
+
+.container-top {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10% 0 10% 0;
+    margin: 10% -0.5rem 25% -0.5rem;
+    background-color: rgba(14, 16, 27, 1);
+    
+    
+}
+
+.container-top > h1 {
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.container-m {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10% 0 10% 0;
+    background-color: rgba(14, 16, 27, 0.911);
+    margin: 25% -0.5rem 0 -0.5rem;
+}
+
+.container-b {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgba(14, 16, 27, 0.911);
+    margin: 25% -0.5rem 0 -0.5rem;
+        
+}
+
+.input-form {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    position: relative;
+    align-self: center;
+    
+}
+
+.input-form input {
+    border: none;
+    background-color: black;
+    outline: 0;
+    font-size: 16px;
+    padding: 16px 0 10px;
+   
+}
+
+.input-form label {
+    position: absolute;
+    font-size: 16px;
+    transform: translate(0, 16px) scale(1);
+    transform-origin: top left;
+    transition: all .1s ease-in-out;
+   
+}
+
+.input-form.active label {
+    transform: translate(0, 4px) scale(.75);
+}
+
+#contacto > h1 {
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
