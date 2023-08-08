@@ -1,5 +1,4 @@
 
-
 #inicio {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: whitesmoke;
@@ -10,11 +9,8 @@
     background-repeat: repeat-x;
     background-size: cover;
     background-position: center;
-    
-    
+    scroll-behavior: smooth;
 }
-
-
 
 .barra-nav {
     display: flex;
@@ -41,8 +37,9 @@
 .barra-nav a:hover {
     background-color: transparent;
     font-size: large;
-    color: blueviolet;
+    color: skyblue;
 }
+
 
 .container-top {
     display: flex;
@@ -50,8 +47,6 @@
     padding: 10% 0 10% 0;
     margin: 10% -0.5rem 25% -0.5rem;
     background-color: rgba(14, 16, 27, 1);
-    
-    
 }
 
 .container-top > h1 {
@@ -73,44 +68,48 @@
     flex-flow: column nowrap;
     background-color: rgba(14, 16, 27, 0.911);
     margin: 25% -0.5rem 0 -0.5rem;
-        
 }
 
 .input-form {
     padding: 0.5rem 1rem 0.5rem 1rem;
     position: relative;
     align-self: center;
-    
 }
 
 .input-form input, .input-form textarea {
     border: none;
     background-color: black;
-    font-size: 16px;
-    padding: 16px 0 10px;
+    font-size: 0.75rem;
+    padding: 1.25rem 18.75rem 0.9375rem 0.5rem;
     resize: none;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     color: whitesmoke;
-    text-indent: 4px;
-   
+    text-align: left;
+    font-weight: 800;
+}
+
+.input-form textarea {
+    padding: 1.25rem 20rem 5rem 0;
+    text-indent: 0.475rem;
 }
 
 .input-form input:focus, .input-form textarea:focus {
-    outline: 2px ridge whitesmoke;
+    outline: 0.125rem ridge whitesmoke;
 }
 
 .input-form label {
     position: absolute;
-    font-size: 16px;
-    transform: translate(0, 16px) scale(1);
+    font-size: 1rem;
+    transform: translate(0.625rem, 1rem) scale(1);
     transform-origin: top left;
     transition: all .1s ease-in-out;
-   
 }
 
 .input-form.active label {
-    transform: translate(4px, 4px) scale(.75);
+    transform: translate(0.5rem, 0.25rem) scale(.75);
+    color: skyblue;
 }
+
 
 #contacto > h1 {
     letter-spacing: 0.1rem;
@@ -119,4 +118,22 @@
 
 p {
     text-align: center;
+}
+
+button {
+    background-image: url(/img/buttonimg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 0.625rem;
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+    border-radius: 0.9375rem;
+    border-width: 0.00625rem;
+}
+
+button:hover {
+    color: skyblue;
 }
