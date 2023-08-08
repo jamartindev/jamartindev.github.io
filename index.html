@@ -12,7 +12,7 @@
   <body>
     
     <div class="barra-nav">
-        <a href="#inicio">Inicio</a>
+        <a id="link1" href="#inicio">Inicio</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contacto">Contacto</a>  
     </div>
@@ -28,17 +28,15 @@
 
     </div>
 
-    <div class="container-b" id="contacto">
+    <form action="" class="container-b" id="contacto">
 
       <h1>Contáctame!</h1>
 
       <p>Si quieres más información, por favor ponte en contacto conmigo. Recibirás una respuesta a la brevedad</p>
 
-      
-          
       <div class="input-form">
         <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" required>
+        <input type="text" id="nombre" name="nombre" required oninput="this.setCustom">
       </div>
 
       <div class="input-form">
@@ -53,8 +51,14 @@
 
       <div class="input-form">
         <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" required></textarea >
-    </div>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+
+      <div class="input-form">
+        <button type="submit">Enviar</button>
+      </div>
+
+    </form>  
         
       
 
