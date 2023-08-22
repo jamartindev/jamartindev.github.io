@@ -23,10 +23,10 @@
     top: 0;
     width: 100%;
     margin: 0 0 0 -1rem;
+    list-style-type: none;
 } 
 
-.barra-nav a {
-    
+.a-nav {
     text-align: center;
     padding: 1rem;
     color: whitesmoke;
@@ -34,12 +34,16 @@
     margin: 0 2rem 0 0;  
 }
 
-.barra-nav a:hover {
+.a-nav:hover {
     background-color: transparent;
     font-size: large;
     color: skyblue;
 }
 
+.selected {
+    color: skyblue;
+    font-size: large;
+}
 
 .container-top {
     display: flex;
