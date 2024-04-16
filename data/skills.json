@@ -1,0 +1,47 @@
+[
+  {
+    "name": "HTML 5",
+    "expe": "1 year experience",
+    "img_url": "/img/skills/html-5-logo-svgrepo-com.svg"
+  },
+  {
+    "name": "CSS",
+    "expe": "1 year experience",
+    "img_url": "/img/skills/css-3-svgrepo-com.svg"
+  },
+  {
+    "name": "JavaScript",
+    "expe": "1 year experience",
+    "img_url": "/img/skills/javascript-svgrepo-com.svg"
+  },
+  {
+    "name": "React",
+    "expe": "0.5 year experience",
+    "img_url": "/img/skills/react-svgrepo-com.svg"
+  },
+  {
+    "name": "SQL",
+    "expe": "0.5 year experience",
+    "img_url": "/img/skills/sql-database-generic-svgrepo-com.svg"
+  },
+  {
+    "name": "NodeJS",
+    "expe": "0.5 year experience",
+    "img_url": "/img/skills/2560px-Node.js_logo.svg"
+  },
+  {
+    "name": "C#",
+    "expe": "0.5 year experience",
+    "img_url": "/img/skills/Logo_C_sharp.svg"
+  },
+  {
+    "name": "ASP.NET",
+    "expe": "0.5 year experience",
+    "img_url": "/img/skills/2560px-Asp.net.svg"
+  },
+  {
+    "name": "Amazon Web Services",
+    "expe": "0.5 year experience",
+    "img_url": "/img/skills/512px-Amazon_Web_Services_Logo.svg"
+  }
+]

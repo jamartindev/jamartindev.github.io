@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Andrés Martínez - Full-Stack developer</title>
+  <link rel="stylesheet" href="/btsrp-css/bootstrap.css">
+  <link rel="stylesheet" href="/css/portfolio.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="brand">JUAN ANDRES MARTINEZ</a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link me-5 a-nav" href="/index.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link me-5 a-nav" href="/skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link me-5 a-nav" href="/projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link me-5 a-nav" href="/recomendations.html">Recomendations</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+  <form class="cont needs-validation" id="contacto" novalidate>
+
+    <div class="row" id="recom">
+      <h2>Recomendations</h2>
+      <div class="col recom">
+        <p>
+          "I was able to share with Juan Andrés the Youth Programming course as his referent teacher and I can say that
+          he is a responsible,
+          communicative, proactive person with good teamwork skills.
+          His treatment is kind and cordial with all people all the time. Thanks to his commitment, he was able to
+          graduate as a Web Developer with very good results".
+        </p>
+      </div>
+      <div class="col recom">
+        <p>
+          "Juan Andrés is a great colleague, always willing to help anyone who needs it. Without a doubt a tremendous
+          team-player.
+          He improves by leaps and bounds and has a very high level of responsibility and commitment. He understands,
+          handles and applies new concepts quickly.
+          He is one of the people you always want on your team".
+        </p>
+      </div>
+      <div class="col recom">
+        <p>
+          "I have the pleasure of knowing Juan Andrés personally and I can attest that he is a person with very good
+          determination.
+          He has great ability to work as a team, he is proactive and always seeks to continue learning".
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+      <div class="col">
+        <h3>Leave a recomendation</h3>
+        <div class="input-form">
+          <label for="nombre">Name (optional)</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <div class="invalid-feedback">
+            Debe completar todos los campos.
+          </div>
+        </div>
+
+        <div class="input-form">
+          <label for="mensaje">Message</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <div class="invalid-feedback">
+            Debe completar todos los campos.
+          </div>
+        </div>
+
+        <!-- <div class="checkInput">
+          <input type="checkbox" id="checkRobot">
+          <label for="checkRobot">No soy un robot</label>
+        </div> -->
+
+        <div class="input-form">
+          <button type="submit" class="btn" id="btnSub">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <script src="/btsrp-js/bootstrap.bundle.min.js"></script>
+  <script src="js/portf.js"></script>
+  <script src="js/recom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
